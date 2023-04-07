@@ -1,0 +1,134 @@
+div.recherche {
+    width: 700px;
+    height: 50px;
+    margin-top: -150px;
+    margin-left: 22%;
+    border-radius: 50px;
+    position: absolute;
+    border-style: solid;
+    border: none;
+    box-shadow: 1px 1px 3px 3px rgb(188, 178, 178);
+}
+
+
+
+
+
+div.modere {
+    margin-top: -20px;
+    margin-left: 520px;
+    position: relative;
+    border-style: none;
+    width: 75px;
+}
+
+div.modere:hover {
+    opacity: 3;
+
+    box-shadow: inset -15px -25px 10px -10px rgb(239, 239, 246);
+}
+
+
+div.filtre {
+    margin-top: -20px;
+    margin-left: 610px;
+    position: relative;
+}
+
+a.I {
+    /* text-decoration: none; */
+    letter-spacing: 1px;
+    color: rgb(103, 101, 101);
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    background-color: rgb(195, 195, 210);
+    bottom: -29px;
+    transition: 0.3s;
+    margin: 7px 0;
+}
+
+
+
+a a.M {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+a.F {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(103, 101, 101);
+}
+
+/* le corps de mon projet */
+
+.enveloppe {
+    width: 200px;
+    height: 60px;
+    border-radius: 60px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(31, 142, 239);
+    /* display: block;
+    display: block; */
+    /* box-shadow: 1px 1px 3px 3px rgb(188, 178, 178); */
+
+}
+
+
+img.carou {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 1px;
+    position: absolute;
+    display: flex;
+
+}
+
+a.im {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+.grande {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    border-style: none;
+    border-width: 1px;
+    border-color: rgb(31, 142, 239);
+    box-shadow: 1px 1px 3px 3px rgb(188, 178, 178);
+    margin-left: 15px;
+}
+
+.amage {
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+a.imaj {
+    color: black;
+    text-decoration: none;
+}
+
+div.ecriture::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transform: scale(0);
+
+}

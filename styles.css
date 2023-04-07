@@ -1,0 +1,64 @@
+img{
+    width: 300px;
+    margin-top:106px;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.debut{
+    position: absolute;
+    display: flex;
+    top:200px;
+    margin-left: 20%;
+}
+button{
+    width: 100px;
+    height:100px ;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-style: none;
+    border-radius: 50px;
+    margin-top:-60px;
+    position: absolute;
+    margin-left: 45%;
+    
+    }
+    button:hover{
+transition: all 0.3s ease-in-out;
+background-color: rgb(12, 64, 85);
+    color: white;
+    }
+
+span{
+    font-size:80px ;
+    font-family: Apple Chancery, cursive;
+    color: rgb(12, 64, 85);
+    position: relative;
+
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin-top:100px;
+    position: absolute;
+    margin-left: 35%;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  
