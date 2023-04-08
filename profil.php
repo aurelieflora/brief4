@@ -41,7 +41,7 @@ section {
 </head>
 <body>
     <div class="container" style="width: 700px; margin:auto;">
-        <h1 style="text-align:center;font-weight:600;text-decoration:underline;color:#0A8FD5;">Mes informations personnelles</h1>
+        <h1 style="text-align:center;font-weight:600;text-decoration:underline;color:#0A8FD5;">Mon Profil</h1>
         <div class="row mt-5">
             <div class="col-lg-6">
                 <div class='row'>
@@ -55,7 +55,7 @@ section {
                    
                         <p style="text-align:left">
                         <form method="post" action="deconnexion_user.php">
-    <button type="submit" name="logout" class="danger"style="margin-top: -20px; margin-left: 600px; position: absolute; display:flex;">Déconnexion</button>
+    <button type="submit" name="logout" class="danger"style="margin-top: 210px; margin-left: 20px; position: absolute; display:flex;">Déconnexion</button>
 </form>
                        <img style=" border-radius:100%; width: 100px;height: 100px; margin-top:-5px; margin-left:10px;" src="reserve_image/<?=$user['profile_picture']?>" alt="">
                     <br> <br> <br> <br> <br>
